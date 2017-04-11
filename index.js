@@ -16,7 +16,7 @@ const data = {
 	runnersData,
 	swimmersData,
 	runnersTeamNames: getTeamNames(runnersTeam, runnersData),
-	get: function() {
+	get() {
 		const allRuns = this.runnersData.reduce((array, athlete) => array.concat(athlete.runs), []);
 		const allLanes = this.swimmersData.reduce((array, athlete) => array.concat(athlete.lanes), []);
 		const allEvents = [].concat(allRuns).concat(allLanes);
