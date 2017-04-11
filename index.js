@@ -1,3 +1,10 @@
+/*
+ *
+ * Exercise!
+ *
+ * Add let and const where appropriate and take advantage of block scoping
+ * 
+ */
 var express = require('express');
 var nunjucks = require('nunjucks');
 var app = express();
